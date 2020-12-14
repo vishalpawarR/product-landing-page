@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: #eee; */
+    font-family: Ubuntu, sans-serif;
+}
+#header {
+    
+}
+figure {
+    display: flex;
+}
+header img {
+    display: inline;
+    width: 40%;
+    padding-left: 25px;
+}
+li {
+    display: inline;
+    list-style: none;
+    /* display: flex; */
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.logo {
+    width: 60vw;
+}
